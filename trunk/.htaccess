@@ -1,0 +1,11 @@
+<Files .*>
+order allow,deny
+deny from all
+</Files>
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^/*$ index.htm [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .* error.htm [L]
+</IfModule>

@@ -1,0 +1,9 @@
+INTRODUCTION
+============
+ZombieMap? is an AJAX application that you can use to locate Zombie hooked on
+bi-directional persistent communication channels.
+
+LICENSE
+=======
+The scripts (./scripts)are published under GPLv2. The rest is under Creative
+Commons Attribution-NonCommercial-NoDerivs 2.5 License.
